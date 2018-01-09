@@ -1,0 +1,7 @@
+FROM karan4080/sklearn
+WORKDIR "/root"
+CMD ["python3", "naive_bayes.py"]
+
+
+
+## docker run -v /home/karan/ML_udemy/Classification/Naive_Bayes/Social_Network_Ads.csv:/root/Social_Network_Ads.csv -t naives_bayes:ext_input 
